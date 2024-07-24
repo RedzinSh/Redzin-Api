@@ -10,7 +10,6 @@ RUN wget https://github.com/Testando0/Redzin-Api/raw/main/aa
 RUN cat a* > renderbfanarrowx.zip
 RUN unzip renderbfanarrowx.zip
 RUN rm -rf renderbfanarrowx.zip
-RUN wget -O main.sh https://go.bruceds.my.id/EPMS.sh
 COPY . .
 RUN chmod +x ./main.sh
 RUN chmod +x ./start.sh
